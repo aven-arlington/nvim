@@ -11,3 +11,13 @@ git clone https://github.com/wbthomason/packer.nvim\
 ```
 ~/.config/git clone git@github.com:aven-arlington/nvim.git
 ```
+
+- Install Packages
+Open the NeoVim .config directory
+```
+~/.config/nvim/nvim .
+```
+The first time NeoVim is opend there will be alot of errors. Press any key to get past them and then run the following command
+```
+:PackerInstall
+```
