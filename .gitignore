@@ -1,3 +1,3 @@
 site/
-plugin/
+/plugin/
 .DS_store
