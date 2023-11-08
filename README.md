@@ -34,5 +34,6 @@ The first time NeoVim is opend there will be alot of errors. Press any key to ge
    touch ~/.config/nvim/init.lua
 ```
 - Install lazy.nvim Package Manager
+
 Packer is no longer maintained as of Aug 2023 and this was recomended.
 [Instructions Here](https://github.com/folke/lazy.nvim)
