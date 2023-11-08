@@ -21,3 +21,12 @@ The first time NeoVim is opend there will be alot of errors. Press any key to ge
 ```
 :PackerInstall
 ```
+
+## Ubuntu
+- [Install Neovim Build Prerequisites](https://github.com/neovim/neovim/wiki/Building-Neovim#build-prerequisites)
+- [Clone the NeoVim Repository](https://github.com/neovim/neovim)
+- Build NeoVim
+```
+   make CMAKE_BUILD_TYPE=RelWithDebInfo
+   sudo make install
+```
