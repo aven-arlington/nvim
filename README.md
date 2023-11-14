@@ -15,6 +15,17 @@ Instead we now use the LazyVim template with the lazy.nvim package management ba
 [Instructions Here](https://github.com/folke/lazy.nvim)
 [Documentation for LazyVim](https://www.lazyvim.org/)
 ```
-   cd ~/.config/nvim
-   git clone ...
+   cd ~/.config
+   git clone git@github.com:aven-arlington/nvim.git 
 ```
+
+- Open and Update Neovim
+Update LazyVim and Plugins
+```
+   :Lazy
+   :MasonUpdate
+   :checkhealth
+```
+- Address any Issues
+Analyze the results of ":checkhealth" and install anything that is missing.
+Examples: rg, fdfind, lazygit
