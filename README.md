@@ -29,3 +29,20 @@ Update LazyVim and Plugins
 - Address any Issues
 Analyze the results of ":checkhealth" and install anything that is missing.
 Examples: rg, fdfind, lazygit
+
+- Install Copilot
+Copilot requires Node.js as a prerequisite. Before we can install that we need to install the [Node Version Manager (nvm)]. 
+
+```
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+
+Next we need to [install Node.js]
+```
+   nvm install --lts
+```
+
+Finally we need to install the neovim package to satisfy :checkhealth
+```
+   npm install -g neovim
+```
