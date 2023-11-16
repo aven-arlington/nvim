@@ -46,3 +46,4 @@ Finally we need to install the neovim package to satisfy :checkhealth
 ```
    npm install -g neovim
 ```
+
