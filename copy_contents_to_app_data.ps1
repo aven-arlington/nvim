@@ -1,0 +1,1 @@
+Copy-Item -Path ..\nvim\ -Destination $HOME\AppData\Local\ -Recurse -Force
