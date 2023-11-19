@@ -46,6 +46,7 @@ opt.smartcase = true -- Don't ignore case with capitals
 opt.smartindent = true -- Insert indents automatically
 opt.softtabstop = 3 -- Tabsize
 opt.spelllang = { "en" }
+opt.spellfile = "/cygdrive/c/Users/avena/AppData/Local/nvim/spell/en.utf-8.add"
 opt.splitbelow = true -- Put new windows below current
 opt.splitkeep = "screen"
 opt.splitright = true -- Put new windows right of current
