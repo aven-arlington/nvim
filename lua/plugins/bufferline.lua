@@ -13,7 +13,6 @@ return {
    },
    opts = {
       options = {
-         mode = "buffers", -- set to "tabs" to only show tabpages instead
          close_command = function(n)
             require("mini.bufremove").delete(n, false)
          end,

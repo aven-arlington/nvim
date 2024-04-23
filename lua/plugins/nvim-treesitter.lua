@@ -1,16 +1,11 @@
 return {
    "nvim-treesitter/nvim-treesitter",
-   opts = {
-      ensure_installed = {
-         "bash",
+   opts = function(_, opts)
+      opts.ensure_installed = {
          "c",
          "diff",
          "html",
-         "javascript",
-         "jsdoc",
          "json",
-         "json5",
-         "jsonc",
          "lua",
          "luadoc",
          "luap",
@@ -21,11 +16,10 @@ return {
          "regex",
          "rust",
          "toml",
-         "tsx",
-         "typescript",
          "vim",
          "vimdoc",
          "yaml",
-      },
-   },
+      }
+      vim.list_extend(opts.ensure_installed, { "ron", "rust", "toml" })
+   end,
 }
